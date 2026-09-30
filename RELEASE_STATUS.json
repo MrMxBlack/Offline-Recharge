@@ -1,0 +1,13 @@
+{
+  "version": "FINAL-1.3",
+  "status": "final-static-build-handoff",
+  "offline_runtime_permission": "verified_static",
+  "native_llama_cpp_source": "not_vendored_in_archive",
+  "native_inference": "not_verified",
+  "physical_android_device": "not_verified",
+  "grapheneos": "not_verified",
+  "zero_network_runtime_proof": "not_verified",
+  "research_benchmark": "framework_present_results_pending",
+  "bounty_ready": false,
+  "final_gate_rule": "Gradle Wrapper + Android SDK/NDK + vendored pinned llama.cpp + real GGUF model + clean Release APK + physical device benchmark + packet-level zero-network proof are mandatory before bounty-ready."
+}

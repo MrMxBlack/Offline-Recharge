@@ -1,0 +1,17 @@
+package com.rohan.offlineresearch
+
+import android.content.Context
+import com.arm.aichat.AiChat
+import com.arm.aichat.InferenceEngine
+import kotlinx.coroutines.flow.Flow
+import java.io.File
+
+class LlamaBackend(context: Context) : LocalModelBackend {
+    private val engine: InferenceEngine = AiChat.getInferenceEngine(context)
+    override suspend fun load(model: File) { engine.loadModel(model.absolutePath) }
+    override suspend fun setSystemPrompt(prompt: String) { engine.setSystemPrompt(prompt) }
+    override fun generate(prompt: String, predictLength: Int): Flow<String> = engine.sendUserPrompt(prompt, predictLength)
+    override suspend fun benchmark(promptTokens: Int, generationTokens: Int): String = engine.bench(promptTokens, generationTokens, 1, 2)
+    override fun release() { engine.cleanUp() }
+    override fun destroy() { engine.destroy() }
+}

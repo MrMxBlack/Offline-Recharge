@@ -1,0 +1,10 @@
+[
+  {"id":"H01","type":"multi-hop","question":"Using only local evidence, connect Entity A to Entity C through Entity B. State each intermediate claim and cite the evidence supporting that step."},
+  {"id":"H02","type":"synthesis","question":"Synthesize at least three local sources into one answer. Separate directly supported facts from conclusions that require inference."},
+  {"id":"H03","type":"comparison","question":"Compare Entity A and Entity B across the same five dimensions. If a dimension lacks evidence for either entity, mark it unknown rather than filling the gap."},
+  {"id":"H04","type":"timeline","question":"Construct a dated timeline from the local corpus. Identify missing intervals and do not invent dates."},
+  {"id":"H05","type":"contradiction","question":"Find evidence that appears to disagree. State the exact conflicting propositions and identify which source supports each proposition."},
+  {"id":"H06","type":"insufficient","question":"Answer a question that is outside the supplied local corpus. The correct behavior is to report insufficient evidence and avoid fabricated citations."},
+  {"id":"H07","type":"citation-integrity","question":"Produce an answer with citations. Every citation must match a retrieved source ID and no source ID may be invented."},
+  {"id":"H08","type":"uncertainty","question":"Give the strongest evidence-supported answer while explicitly separating high-confidence evidence, weak evidence and unresolved uncertainty."}
+]

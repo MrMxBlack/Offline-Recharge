@@ -1,0 +1,6 @@
+RELEASE TRUTH AUDIT
+version: FINAL-1.2
+llama.cpp vendored: False
+bounty_ready: False
+errors: 1
+ERROR: RELEASE_STATUS version is 'FINAL-1.2', expected a V5.x release version

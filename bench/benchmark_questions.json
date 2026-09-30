@@ -1,0 +1,8 @@
+[
+  {"id":"B01","type":"comparison","question":"Compare two subjects using the same dimensions and cite the local evidence for each dimension."},
+  {"id":"B02","type":"multi-hop","question":"Explain a relationship between two entities through an intermediate entity and show every evidence step."},
+  {"id":"B03","type":"synthesis","question":"Synthesize multiple local sources and distinguish direct evidence from inference."},
+  {"id":"B04","type":"timeline","question":"Construct a chronological sequence from dated local evidence and flag gaps."},
+  {"id":"B05","type":"contradiction","question":"Identify two local sources that disagree and explain exactly what conflicts."},
+  {"id":"B06","type":"insufficient","question":"Answer a question for which the local corpus lacks evidence and clearly state the limitation."}
+]

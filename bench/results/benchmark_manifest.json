@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-09-30T07:30:37.817891+00:00",
+  "network": "disabled by design",
+  "question_count": 6,
+  "question_sha256": "3363d664bc69fb149a0db860d8c113d33198270b2f9c8ef483b65845b166bab2",
+  "device_results": [],
+  "status": "MANIFEST_ONLY_UNTIL_REAL_DEVICE_TEST"
+}

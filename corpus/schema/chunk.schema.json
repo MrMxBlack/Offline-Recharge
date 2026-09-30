@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Offline Research Corpus Chunk",
+  "type":"object",
+  "required":["id","doc_id","chunk_index","title","kind","text","source","license","version"],
+  "properties":{
+    "id":{"type":"string","pattern":"^[^#]+#[0-9]+$"},
+    "doc_id":{"type":"string"},
+    "chunk_index":{"type":"integer","minimum":0},
+    "title":{"type":"string"},
+    "kind":{"type":"string"},
+    "text":{"type":"string","minLength":1},
+    "source":{"type":"string"},
+    "license":{"type":"string"},
+    "version":{"type":"string"}
+  }
+}

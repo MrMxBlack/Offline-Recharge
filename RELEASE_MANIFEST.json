@@ -1,0 +1,792 @@
+{
+  "schema": "offline-research-release-v6-final-static-candidate",
+  "generated_utc": "2026-09-30T14:53:00.239896+00:00",
+  "git_commit": "not-a-git-checkout",
+  "git_dirty": true,
+  "runtime": {
+    "internet_permission": false,
+    "max_ram_gb": 12,
+    "max_storage_gb": 50
+  },
+  "native": {
+    "engine": "llama.cpp",
+    "commit": "RECORD_AFTER_IMPORT",
+    "source_sha256": "RECORD_AFTER_IMPORT"
+  },
+  "model": {
+    "name": "Qwen3-1.7B GGUF development baseline",
+    "sha256": "RECORD_AFTER_MODEL_IMPORT"
+  },
+  "corpus": {
+    "manifest": "corpus/manifest.json",
+    "checksum": "9cf3c412dc590659fec0e2789233ecf25c124e05b8ecd171299f48499fcb5b7d"
+  },
+  "device_verification": "PENDING",
+  "files": [
+    {
+      "path": "gradle.properties",
+      "bytes": 103,
+      "sha256": "ff7e500b239d1a90a4d7ffbd22663f25c9e38c75cea2d8dd722356ba8c579b88"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2552,
+      "sha256": "c0fe9be633d58179004b403c589b357c1b302c323f192d098cb5c7fa9386cb15"
+    },
+    {
+      "path": "build.gradle.kts",
+      "bytes": 217,
+      "sha256": "8f2d4258f2a6ef0bff61f5c18753b968e6a9465f886b6df857380e87a8b08eff"
+    },
+    {
+      "path": "BUILD_NEXT.md",
+      "bytes": 726,
+      "sha256": "50bed188f9b88fdf4f05971770e00db94acdbdb255478132614c37e67d115ba5"
+    },
+    {
+      "path": "RELEASE_STATUS.json",
+      "bytes": 647,
+      "sha256": "9badd75f64a821eadfb82a6eba2a5678e10570515c79588316235d49bf577317"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 642,
+      "sha256": "24ccc5c99a2f3a8f2f4da52afc0dc7800f4bd4ea987cb355dce0c41d56794619"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 72,
+      "sha256": "884e78d78b1c5bc4eae0319ce443181606b8bab38a647d216600e8ce4d14e17a"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "bytes": 333,
+      "sha256": "77b106ef8667bc4de9cd763b6971bae782b8c69aca6031efce2e4a06b40966e7"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 464,
+      "sha256": "5aa2213c48dcec98bf29cdedcc0a829c68624468e05dea06a515b0ea21592b58"
+    },
+    {
+      "path": "docs/FINAL_1_3_STATUS.md",
+      "bytes": 964,
+      "sha256": "89812064cd879935f71f43c1c3595d201d6a2f4158794f142ba0fd6cf0715794"
+    },
+    {
+      "path": "docs/V5_19_CHANGELOG.md",
+      "bytes": 423,
+      "sha256": "5e14a2498dfeca8fcfecc5363f3a531d920d6af101ef9b09ef2e1bbbc5e664e3"
+    },
+    {
+      "path": "docs/LLAMA_UPSTREAM_VERIFICATION.md",
+      "bytes": 603,
+      "sha256": "2048492a1e0cacb05c55476aca530d7a065a05ed294031894b66056111d47b7a"
+    },
+    {
+      "path": "docs/V5_20_CHANGELOG.md",
+      "bytes": 486,
+      "sha256": "885d729fcffff3eb36b8bd9785f675c0dc565721ce425bd6eb3dc9632e0adbff"
+    },
+    {
+      "path": "docs/BOUNTY_CHECKLIST.md",
+      "bytes": 1053,
+      "sha256": "169b8ec3f1e723287b374bfd5610048eb8d089703f612dbb2904f064cafc56e1"
+    },
+    {
+      "path": "docs/V5_6_CHANGELOG.md",
+      "bytes": 769,
+      "sha256": "afc583e4571d6b09c93109f3d5f9dc9e1e51ec9f5cc85fec8cd3a864850ed73d"
+    },
+    {
+      "path": "docs/NATIVE_BUILD.md",
+      "bytes": 700,
+      "sha256": "e9a8d5b048202aa363ffe0d9edb22714c654af51cd484f9ed78a00a4430158e8"
+    },
+    {
+      "path": "docs/V5_16_CHANGELOG.md",
+      "bytes": 509,
+      "sha256": "48f093b4476fa0c5fe7581545ee4a7389a647ccc55335b58876952d4e54817ca"
+    },
+    {
+      "path": "docs/HOST_BUILD_HANDOFF.md",
+      "bytes": 2523,
+      "sha256": "12fd633329c804cafbeb61e45d0a92fff9e82c3be4f9b614b8aaa6006ead46fb"
+    },
+    {
+      "path": "docs/V5_8_CHANGELOG.md",
+      "bytes": 726,
+      "sha256": "107c9100d8bb7e7bf6abb6df311332040a1b19588322f210236baa6798f82550"
+    },
+    {
+      "path": "docs/V5_15_CHANGELOG.md",
+      "bytes": 716,
+      "sha256": "166270ede336c372fa8ef9f31a05f6100eea391ae6c3f981e75db23c5b26f043"
+    },
+    {
+      "path": "docs/NATIVE_INFERENCE_STATUS.md",
+      "bytes": 1509,
+      "sha256": "67029eb80aeb60d2937410ab4a87a84b3d4de256567b34ac2b5e902054c78fe5"
+    },
+    {
+      "path": "docs/FINAL_1_3_HANDOFF.md",
+      "bytes": 1206,
+      "sha256": "786873a52f74351504a2e72d9066ff02592d40e732d143ba5e2c3ce5eb6f0068"
+    },
+    {
+      "path": "docs/DEVICE_VALIDATION_RUNNER.md",
+      "bytes": 1043,
+      "sha256": "1bc710ca2ea8d3b97124056889dd7e86582c1c390caf8d418c33300568314205"
+    },
+    {
+      "path": "docs/GRADLE_WRAPPER_BOOTSTRAP.md",
+      "bytes": 1099,
+      "sha256": "abc58fd7c918863b65bbbb3d4ee7c80615680f1e327f25702429f3a9ec60c660"
+    },
+    {
+      "path": "docs/LLAMA_INTEGRATION.md",
+      "bytes": 1122,
+      "sha256": "1fc8379d4e1e9e6f443fd341fc9c1ef93edd93f9a402783ee0bacfc9fc56f3d0"
+    },
+    {
+      "path": "docs/MODEL.md",
+      "bytes": 538,
+      "sha256": "b1fe7cee77a3714968c734bc93bdbe017247b8452bfd40d53ce44fe37373b8a3"
+    },
+    {
+      "path": "docs/V5_10_CHANGELOG.md",
+      "bytes": 1073,
+      "sha256": "2d286e1c24439617b4921da8a5be7fbdb77e5c27e68e596c40f73f7bc84fce31"
+    },
+    {
+      "path": "docs/FINALIZATION.md",
+      "bytes": 1009,
+      "sha256": "8b83477a60ed550d38341c14f3f7486b03449b8bf9dcfa0d62c1aa5a513766a9"
+    },
+    {
+      "path": "docs/FINAL_STATUS.md",
+      "bytes": 1222,
+      "sha256": "7d64ee3f4ef65bdd0d3196a3f3f019e39eb8c0bed453570b78b658325e1d1af4"
+    },
+    {
+      "path": "docs/LLAMA_CPP.md",
+      "bytes": 850,
+      "sha256": "5f05d6b98cac15bd03dd7d0034b2c2c48137a43d0bfbe6d8496711d5a210ce65"
+    },
+    {
+      "path": "docs/RESEARCH_ENGINE.md",
+      "bytes": 951,
+      "sha256": "103ab76ec4276d2aa96c6c93c52d234f7ab0add41c4c5739a4d4bea15520b00d"
+    },
+    {
+      "path": "docs/BUILD_REPRODUCIBILITY.md",
+      "bytes": 1422,
+      "sha256": "06b5269dfd4b227080c6662fa07f495b86aeb15bb9921a1bbf8ea3a885608c42"
+    },
+    {
+      "path": "docs/V5_18_CHANGELOG.md",
+      "bytes": 508,
+      "sha256": "f1344cecdcf4d79bf8f66c38adaac1eb06964f059759f5a6fc7b48ad65df290a"
+    },
+    {
+      "path": "docs/DEVICE_EVIDENCE_INTEGRITY.md",
+      "bytes": 1148,
+      "sha256": "7629faf35c97b15878f71b7b88f8f10db27f26cd86f89efe3bb7431fb59b0a78"
+    },
+    {
+      "path": "docs/API_WIRING.md",
+      "bytes": 674,
+      "sha256": "30e4361c6a52efc12f90eb1fba8caa615f1e278049e5bc083e3dbb4b3ea4311f"
+    },
+    {
+      "path": "docs/V5_25_FINAL_BUILD_HANDOFF.md",
+      "bytes": 1216,
+      "sha256": "3af23a0a0da1fc99e9e2eaaedcc8215af3a039cd15c12840b862ca6b2dc64f47"
+    },
+    {
+      "path": "docs/FINAL_CANDIDATE_1_0.md",
+      "bytes": 1112,
+      "sha256": "b409cc00102c40e3fed09bd856c11a792205c9f4af0b1467e6c67405fcbd3904"
+    },
+    {
+      "path": "docs/FINAL_TRUTH_STATUS.md",
+      "bytes": 733,
+      "sha256": "2a6c68af71d15a761a622e4d45b40113692005a19a85c94db4e95ae783148c88"
+    },
+    {
+      "path": "docs/V5_7_CHANGELOG.md",
+      "bytes": 678,
+      "sha256": "9b8a41f223e291b085a7353e13d0b1eafdec3712407de33c5a5df5dec6bd2b99"
+    },
+    {
+      "path": "docs/GRADLE_COMPATIBILITY.md",
+      "bytes": 627,
+      "sha256": "4fc722783caf953094e2ed263e8e3d07a506d4bfe7c7ae762ef84877f218431f"
+    },
+    {
+      "path": "docs/FINAL_1_2_HANDOFF.md",
+      "bytes": 1847,
+      "sha256": "67b3a48cb49dbc8776892266cb0b105ee2d23d017a99846ff414b93b69699edd"
+    },
+    {
+      "path": "docs/FINAL_APP_GATE.md",
+      "bytes": 1118,
+      "sha256": "c361ab6ab3a11ab180c69057d75a64c3936a580787574c7c0589699725108480"
+    },
+    {
+      "path": "docs/V5_22_CHANGELOG.md",
+      "bytes": 354,
+      "sha256": "2469b0643066c53966652c1671b4907a4cab03b808c6ebfbd4019851f9296e8f"
+    },
+    {
+      "path": "docs/RESOURCE_BUDGET.md",
+      "bytes": 365,
+      "sha256": "0b7319afc0791e1d2dbf407b092a8f020f0e01988883ba3f08764cc70ffc5492"
+    },
+    {
+      "path": "docs/NATIVE_INTEGRATION_STATUS.md",
+      "bytes": 1296,
+      "sha256": "ff321d52df6db25493e464de5ee411c0b9df20e3b456098a3045a419356fcfa4"
+    },
+    {
+      "path": "docs/V5_9_CHANGELOG.md",
+      "bytes": 702,
+      "sha256": "cc32baa50831ab5db7e24960aec54a42be04125993f6f932d38f260b55b6b636"
+    },
+    {
+      "path": "docs/REAL_DEVICE_RUNBOOK.md",
+      "bytes": 2134,
+      "sha256": "ff1ee61bfa592eb0adcd15613389e9124cf92ed362156d2dc33223f279e1a3e6"
+    },
+    {
+      "path": "docs/V5_24_CHANGELOG.md",
+      "bytes": 566,
+      "sha256": "678f52a6986516f12ecbbb69614cf2cbf879da515209ee936bb6b7744f4504fc"
+    },
+    {
+      "path": "docs/V5_5_RELEASE_NOTES.md",
+      "bytes": 1503,
+      "sha256": "633d9379718abef3ca2ac7b44ad5b68b10c65a977bf33be72f3ef1ea989ec916"
+    },
+    {
+      "path": "docs/BOUNTY_CLAIM_TEMPLATE.md",
+      "bytes": 994,
+      "sha256": "8029471e90b137693fedcf990506c3ac9d3b689d346efc050b2441c75116a8f0"
+    },
+    {
+      "path": "docs/ARCHITECTURE_FINAL.md",
+      "bytes": 658,
+      "sha256": "6a3f1eb9743992aa69ab192d4974c34ada9415d6c5e3bfe1361becbd4018a92d"
+    },
+    {
+      "path": "docs/V5_12_CHANGELOG.md",
+      "bytes": 752,
+      "sha256": "dfaaded82f2277fad43ff985d62c7c476f6753c509401164b65062d085567302"
+    },
+    {
+      "path": "docs/FINAL_1_1_STATUS.md",
+      "bytes": 1766,
+      "sha256": "9389bb785a3220f3f13963d21f8f33784c44712ac8d48e9b29d0412ecfc29bc9"
+    },
+    {
+      "path": "docs/BOUNTY_STATUS.md",
+      "bytes": 1055,
+      "sha256": "239bf7e39953ce811d07477662a9ac05052449109a7c92eb371c17b64e6a3f38"
+    },
+    {
+      "path": "docs/V5_11_CHANGELOG.md",
+      "bytes": 623,
+      "sha256": "a30cce4cd522b07bc1e2523331d482b440fc2c4e656ddec76db9023239a0747f"
+    },
+    {
+      "path": "docs/MODEL_PIN.md",
+      "bytes": 604,
+      "sha256": "9ff89e905df05ffdfac61d34546b9ebbd0bcff11693945c16bb770b16313c75e"
+    },
+    {
+      "path": "docs/DEVICE_TEST_PROTOCOL.md",
+      "bytes": 758,
+      "sha256": "56069b69ebe9eec91d4e46d5d11191b5c6851ece8fe263a863cc4aa004dabd2b"
+    },
+    {
+      "path": "docs/V5_13_CHANGELOG.md",
+      "bytes": 616,
+      "sha256": "54d02ca900712f10d1109522739513fb745ccdbc48112419fed246731ae4a403"
+    },
+    {
+      "path": "docs/V5_17_CHANGELOG.md",
+      "bytes": 869,
+      "sha256": "9a0f81f251229a200a1c1f984fa7cf147a3ff0e17086a1870e3ddd9494b571da"
+    },
+    {
+      "path": "docs/V5_21_CHANGELOG.md",
+      "bytes": 456,
+      "sha256": "75f834d53e2576627d662bc681f88aca25cfcb932d35902195dbbd4706f8db21"
+    },
+    {
+      "path": "docs/COMPETITIVE_POSITIONING.md",
+      "bytes": 883,
+      "sha256": "3f45173540ce8899540f1f3e6bb48287779ab5221c29ae28e4790470054bca18"
+    },
+    {
+      "path": "docs/V5_23_CHANGELOG.md",
+      "bytes": 649,
+      "sha256": "b40f4c14d04f02229770313145533f2d442c04ea0f64b3edce68e544e2b549c6"
+    },
+    {
+      "path": "docs/V5_14_CHANGELOG.md",
+      "bytes": 658,
+      "sha256": "2f8d0106d510746f99212da5ab7ef771b928c4269e8dd05af5fe5864dd3586b3"
+    },
+    {
+      "path": "docs/SUBMISSION_CHECKLIST.md",
+      "bytes": 691,
+      "sha256": "e942d3dc6498ca29677d49a0705b07ffcbf286707aa42e3e708aa102c539d58b"
+    },
+    {
+      "path": "docs/V5_5_CHANGELOG.md",
+      "bytes": 912,
+      "sha256": "48f59850431e5886ba5528d886776c3dc6b40f443926ab4d6346d582da8a659d"
+    },
+    {
+      "path": "docs/FINALIZATION_GATES.md",
+      "bytes": 1405,
+      "sha256": "3d95255ca6b18c67fae6ce9714c02a4c79a194de77fc76e95ede4bbde4fb7f2f"
+    },
+    {
+      "path": "docs/V5_4_CHANGELOG.md",
+      "bytes": 835,
+      "sha256": "d5c83ee3b5df8087cf2430790089e631c089e262eecad56a8debf43ba42b222b"
+    },
+    {
+      "path": "bench/scoring_schema.json",
+      "bytes": 271,
+      "sha256": "a65af1944995e2d91fa4c3405a8fdbb7f887b5ec2d9d860d32f95b77deb1d0d7"
+    },
+    {
+      "path": "bench/hard_questions.json",
+      "bytes": 1484,
+      "sha256": "ab79de8d18567d65ae903e534e3f3d0c7df85f7e751ae0d4e819e2a3f5c3440e"
+    },
+    {
+      "path": "bench/benchmark_questions.json",
+      "bytes": 827,
+      "sha256": "3363d664bc69fb149a0db860d8c113d33198270b2f9c8ef483b65845b166bab2"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "bytes": 1136,
+      "sha256": "643a44d9b9147d02800e70bf85a0507882e46846d84536691f13e6dafb238051"
+    },
+    {
+      "path": "third_party/README.md",
+      "bytes": 328,
+      "sha256": "00563c63d6077a3253b7b1a9f2952da00d38b0df0980089a6dff0290f8cce986"
+    },
+    {
+      "path": "third_party/LLAMA_CPP_PIN.json",
+      "bytes": 444,
+      "sha256": "6d92078c7b62699c54fa36f2ee322f7b260a078b6d7587ee3813654d50498e31"
+    },
+    {
+      "path": "third_party/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/DEVICE_RESULT.example.json",
+      "bytes": 378,
+      "sha256": "ff1e061d2022c0fd22b0ac4aa379aecd4b9edb03e449a0d919ac3235e1dbae9a"
+    },
+    {
+      "path": "evidence/FINAL_1_3_OFFLINE_POLICY.txt",
+      "bytes": 191,
+      "sha256": "688ab30ecdae9dee4700463a873205d0519de58bf3ebf7668fe7a95b7d24ea5e"
+    },
+    {
+      "path": "evidence/FINAL_1_3_RELEASE_TRUTH.txt",
+      "bytes": 156,
+      "sha256": "3f65e460f7b468c8e90559f0f00fe82408c0ba1351c33987000bdb52dbed4477"
+    },
+    {
+      "path": "evidence/FINAL_1_3_ANDROID_CONTRACT.txt",
+      "bytes": 29,
+      "sha256": "176f10de06f47a08f6a454befb9cb5ff4567c61cbe5e6570575b80d79d77c2ba"
+    },
+    {
+      "path": "evidence/host_environment_report.stdout.txt",
+      "bytes": 634,
+      "sha256": "02bc538bbb87bf22a295f044ed0b7e973f4a36da044181cadfaf7ee7ca93c7f4"
+    },
+    {
+      "path": "evidence/FINAL_1_2_ARCHIVE_LAYOUT.txt",
+      "bytes": 71,
+      "sha256": "677e89f16241d6274cb1f569628d0d271e31f048b4190b2331251469189812fe"
+    },
+    {
+      "path": "evidence/FINAL_1_3_REPOSITORY_AUDIT.txt",
+      "bytes": 709,
+      "sha256": "3c07043dd5313fb7ad8de0bdf2c250035aea42d87149322f66ba10d45ab26692"
+    },
+    {
+      "path": "evidence/FINAL_1_2_STATIC_AUDIT.txt",
+      "bytes": 1173,
+      "sha256": "495ec28c164ee7aef5a3394808942ca360cd7bc9f3aab813c1bc89ece1027b61"
+    },
+    {
+      "path": "evidence/FINAL_1_3_ARCHIVE_LAYOUT.txt",
+      "bytes": 71,
+      "sha256": "677e89f16241d6274cb1f569628d0d271e31f048b4190b2331251469189812fe"
+    },
+    {
+      "path": "evidence/host_environment_report.json",
+      "bytes": 634,
+      "sha256": "02bc538bbb87bf22a295f044ed0b7e973f4a36da044181cadfaf7ee7ca93c7f4"
+    },
+    {
+      "path": "evidence/release_artifact.schema.json",
+      "bytes": 214,
+      "sha256": "95b3040c675862f464c7b87100d865f5d57fb7a0d806e098184eea9329e2034f"
+    },
+    {
+      "path": "evidence/FINAL_1_2_HOST_AUDIT.json",
+      "bytes": 225,
+      "sha256": "bab3a6973cb4f4cb9f8fef37dcda72ccadb8b9339a73aee07e0446a180fa74b7"
+    },
+    {
+      "path": "evidence/device_result.schema.json",
+      "bytes": 566,
+      "sha256": "81e6ec31a64ca9415e6f5b3b69a1c0131557e85aaa14ef0ea4497f5496b85a3c"
+    },
+    {
+      "path": "evidence/FINAL_1_3_REPRODUCIBILITY.txt",
+      "bytes": 177,
+      "sha256": "00c061b19c19aa9e8817986e4d7e784044359f156af18742b27552aa7633e46e"
+    },
+    {
+      "path": "evidence/FINAL_1_2_RELEASE_TRUTH.txt",
+      "bytes": 173,
+      "sha256": "aba878d7490d20d7d4c53d129cd2eed209b0608155d1e92a67f29ab4ac4a20c3"
+    },
+    {
+      "path": "tools/integrate_llama_android.sh",
+      "bytes": 4586,
+      "sha256": "e4734e645b41ff911508e2fec3738963aa2440226d47e732adc31b5e564af642"
+    },
+    {
+      "path": "tools/validate_offline_repo.py",
+      "bytes": 1667,
+      "sha256": "9adbf2c049b8a28f0ac96fca83bcfc8977d392f6bc7a395ce03062c98fe94d1a"
+    },
+    {
+      "path": "tools/verify_release_truth.py",
+      "bytes": 2442,
+      "sha256": "ed18a9459597e8f95f3eb1a921e727a29d3f4f1595319bc83fcc901608d001cc"
+    },
+    {
+      "path": "tools/verify_android_build_contract.py",
+      "bytes": 2576,
+      "sha256": "fa4b9310b1db01ad2be3118809f244b6551a3a9c42f775db19c357a91811d78c"
+    },
+    {
+      "path": "tools/validate_device_result.py",
+      "bytes": 5095,
+      "sha256": "2206d13cebd4ef5ecbc89d364789151ff1fb6aeb81b398b0d69e1f2ba8da2a93"
+    },
+    {
+      "path": "tools/final_build_gate.sh",
+      "bytes": 1247,
+      "sha256": "10881c89201c4f3000f491da60a04d3abb8ded966ec52338486d0348172d9e32"
+    },
+    {
+      "path": "tools/verify_offline_policy.py",
+      "bytes": 2456,
+      "sha256": "21c7a6748bc801548bc624760f043e79e07fefbc75e4caf987bd1ad12d67ed33"
+    },
+    {
+      "path": "tools/preflight_release.sh",
+      "bytes": 1113,
+      "sha256": "24b7b0e9da6331443927bba96ab73691d236120912cde2c002bff81089936a2b"
+    },
+    {
+      "path": "tools/build_host_preflight.sh",
+      "bytes": 1080,
+      "sha256": "26f299c50df2d70e8f263dff8d920875ddbbb01400c61325301995765031b59b"
+    },
+    {
+      "path": "tools/verify_archive_layout.py",
+      "bytes": 737,
+      "sha256": "722c10c948acc4c5dbae701adb5852a85784221485c5b7cae25b57ba8ba72925"
+    },
+    {
+      "path": "tools/build_corpus.py",
+      "bytes": 1658,
+      "sha256": "920eda21e17d3c760020e476b74c1af25ba91792693afecb63104b2b2ff18fd4"
+    },
+    {
+      "path": "tools/final_handoff_audit.sh",
+      "bytes": 469,
+      "sha256": "cfa513c8afc53015253cacd92cf31c1b7a2fc1c3d28b0f900683d7cf255a0fbe"
+    },
+    {
+      "path": "tools/verify_native_source.sh",
+      "bytes": 884,
+      "sha256": "4c01c0e781e02cb3eab44ba44d4214477cb25c4a0f82aa179cc2881076d5823d"
+    },
+    {
+      "path": "tools/collect_device_evidence.sh",
+      "bytes": 1827,
+      "sha256": "c9bdba3fa1b9b8706ecf47520de8f6200237dc5770c07b9ca0fadab16ab634c3"
+    },
+    {
+      "path": "tools/verify_build_reproducibility.py",
+      "bytes": 3215,
+      "sha256": "0db7467bf1774113a1153575fa1b6f4d5f2d49e12cd2144368661a1194d5e7c0"
+    },
+    {
+      "path": "tools/verify_upstream_contract.sh",
+      "bytes": 1125,
+      "sha256": "3a140210e1b7f1a5bb7730280f3cb7395d85e006d753ced8c64d87f93ae57b6f"
+    },
+    {
+      "path": "tools/LocalModelLlamaBackend.kt.template",
+      "bytes": 861,
+      "sha256": "c999eeac644e12d6290e2a6ea7c024a1ed6fdcc81d0c832df12761704a7b0dc1"
+    },
+    {
+      "path": "tools/run_benchmark.py",
+      "bytes": 1003,
+      "sha256": "b0a99f7706d44153f70fbfea4a786eac19996c1972dbd36714c6dd4c36634e68"
+    },
+    {
+      "path": "tools/verify_benchmark_evidence.py",
+      "bytes": 4614,
+      "sha256": "dc6699f801cfcc3153375dabf77b86484b9579df9b88470ea64924d419539169"
+    },
+    {
+      "path": "tools/build_release_candidate.sh",
+      "bytes": 1832,
+      "sha256": "cc2d429bfaa4bfe64e527e98070c7e3ade831660afc612932c0dda27055e8518"
+    },
+    {
+      "path": "tools/packet_proof_protocol.sh",
+      "bytes": 923,
+      "sha256": "4d84f6f2f2cde14b6d7a183e8bc750a741ca9b3222dfa59f42d1ba1e84be4015"
+    },
+    {
+      "path": "tools/check_release.sh",
+      "bytes": 1070,
+      "sha256": "404ad4cea372372c1b2d4026c924e32a24152c6d56d69c688d551f8e35ee38ed"
+    },
+    {
+      "path": "tools/bootstrap_gradle_wrapper.sh",
+      "bytes": 1259,
+      "sha256": "ca58f51c11ae258c6a524e11522cd3e0660b2f77c7019be227b7c8f064914582"
+    },
+    {
+      "path": "tools/verify_native_integration.sh",
+      "bytes": 1576,
+      "sha256": "e32037a1352a34019bca666dddfcbc1178280088f69f9c682d116fcdcfcf0d05"
+    },
+    {
+      "path": "tools/native_preflight.sh",
+      "bytes": 1746,
+      "sha256": "52e77f92e1da2cdf440c3b33ffb025e800bcae701f239bb0654fe6707e8cfdc3"
+    },
+    {
+      "path": "tools/pin_llama_cpp.sh",
+      "bytes": 769,
+      "sha256": "30bf641aad2d709ebe4ed6945c25eac1d5edf2f0a11c3e962462736463e4a2ea"
+    },
+    {
+      "path": "tools/run_device_validation.sh",
+      "bytes": 1785,
+      "sha256": "af79bf4d3d14445107f788bebdcfb9d9f0632333f89271d81480b99dc3c32bd3"
+    },
+    {
+      "path": "tools/LlamaAndroidNativeProvider.kt.template",
+      "bytes": 1267,
+      "sha256": "a18eb9e8dd0be29faa2cee8b6eb74702fe6b58358e61fda69eba8e1f5f7452e5"
+    },
+    {
+      "path": "tools/generate_release_manifest.py",
+      "bytes": 1664,
+      "sha256": "326a78acd50a3bf0f3a59472d60a87b87745fe988059971134d10e17e9603666"
+    },
+    {
+      "path": "tools/static_release_audit.sh",
+      "bytes": 385,
+      "sha256": "b4862902aeae313a61fa88367df3bdd6726f57838323cd95c11972fd44ab775a"
+    },
+    {
+      "path": "tools/prepare_reproducible_build.sh",
+      "bytes": 1016,
+      "sha256": "49ccbd119befd4a5bc3233554248608121c31b27c007c68cc041c0b1647c0108"
+    },
+    {
+      "path": "tools/run_host_validation.sh",
+      "bytes": 976,
+      "sha256": "a117b4aa4e73f1d4fb41969cbe866f2eb7e6bb3ec8c67a4fd4cefb20e4c1171e"
+    },
+    {
+      "path": "tools/final_release_gate.sh",
+      "bytes": 652,
+      "sha256": "c5949c244b41088114abe8cd1456899c0828084a2b6bca5130db95ef0d2da111"
+    },
+    {
+      "path": "tools/host_environment_report.py",
+      "bytes": 2187,
+      "sha256": "16d4f9c0e0a23a3f8a74946e71e208ef49f08531828c314db8125be118896526"
+    },
+    {
+      "path": "scripts/prepare_release.sh",
+      "bytes": 424,
+      "sha256": "ee5b2415dec9d093ede6e48deecd710cafb6ea9366c6cc320e146f87512cfcd9"
+    },
+    {
+      "path": "corpus/chunks.json",
+      "bytes": 1893,
+      "sha256": "d8f11ba6cdfd81ac4a8919a2c99ec65d97d5925cc40453892d15bf6cecfd7606"
+    },
+    {
+      "path": "corpus/manifest.json",
+      "bytes": 373,
+      "sha256": "9cf3c412dc590659fec0e2789233ecf25c124e05b8ecd171299f48499fcb5b7d"
+    },
+    {
+      "path": "corpus/schema/chunk.schema.json",
+      "bytes": 581,
+      "sha256": "9311b22fcade05e32f3bdd9b037a0c79dc8b884e6f11285bc4d683796b256bdf"
+    },
+    {
+      "path": ".github/workflows/native-build.yml",
+      "bytes": 1308,
+      "sha256": "471730e735bf29d0c74b559209356bbddcdb077ad93959dc293e90aaecf0f861"
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "bytes": 886,
+      "sha256": "1d28ba56d3f13c94b8a9a9a8a1886f7e1a567d69f10fe98c93604e2b3d7e8a91"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 724,
+      "sha256": "7bb01f0897e2b45d2d3a4b3b5eb1eab069a3b2af8757a24962d03627d517843d"
+    },
+    {
+      "path": "app/src/main/assets/corpus.json",
+      "bytes": 1162,
+      "sha256": "3136ae89bc3e1f7f25bd59c4a71c8c37ac6b68e4db0a53b343f2d4b878f08721"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/Evidence.kt",
+      "bytes": 167,
+      "sha256": "6779d0598704333fedaf81bb0f528b74805a81aca33fed8e942d708721609056"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/LocalModel.kt",
+      "bytes": 2529,
+      "sha256": "5ef87fade8d0cebf90133705ecabe8c4fadf84d68898544d0b5c586b51e57e6f"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/CorpusManager.kt",
+      "bytes": 3332,
+      "sha256": "48321a1d7825b71f1d9fcf03663db6cb38875eb5c4a00671332da211a9c78514"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/CorpusDoc.kt",
+      "bytes": 236,
+      "sha256": "728a156583df887efc06f337215deddd44ffefc6b2bb4b8d036e7293baaf1aff"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ResearchEngine.kt",
+      "bytes": 3023,
+      "sha256": "d33bb53814bb7461fa3032d02a9307044b01bdf80493c925d206f1eae761686d"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/EvidenceFormatter.kt",
+      "bytes": 748,
+      "sha256": "c20833ac15bd32e8e506d35207a2195cafe967f155a556d69eb37f003447b9d8"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ResearchViewModel.kt",
+      "bytes": 1478,
+      "sha256": "69d1423383569fbc2143b2252147d4c9853d0ebfc9c9e6b0dc7ed49d4187ce29"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/CitationValidator.kt",
+      "bytes": 1231,
+      "sha256": "71fbbcc39c893ad0149d6c5534441d5b6882f7bdc8a604970aa51fd865366c9d"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ResearchRetriever.kt",
+      "bytes": 1810,
+      "sha256": "cb78a54a2a26189bc38228b4aad2e86d1182716ef45db5204fa67a67e04efa4c"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/CorpusRepository.kt",
+      "bytes": 966,
+      "sha256": "265e4c44d22858e0863b7ef0f6313567f13a22ee10f8d6e39a06f51219cef919"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ContradictionDetector.kt",
+      "bytes": 1261,
+      "sha256": "bba9fb1d170a80710bcde8fca25ba0ef6f54a7c77801f69003a8e0643dcae391"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ModelManager.kt",
+      "bytes": 3566,
+      "sha256": "2b59dd119c94d6a268e83653e8b60a0ffee90ecb25c353a94bdc077922faca5f"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/CorpusIndex.kt",
+      "bytes": 2098,
+      "sha256": "0a5124f7d19f1b5870101c3fe8819be8d771a65f95e1632f1fe3183fa2231d51"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/LocalCorpus.kt",
+      "bytes": 1434,
+      "sha256": "45c594bffb09edc086a69bb5abd9bdf0723adaa32eb6e10592db548b790b8bc6"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ResearchSystemPrompt.kt",
+      "bytes": 584,
+      "sha256": "735fa712d49d700964bd2245614ea756fc175764cd205b4192283489ee3c2bcd"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/PromptBuilder.kt",
+      "bytes": 1714,
+      "sha256": "31d67bfc286e1e3cffb2d7801860e2ca0dbb5e58b155a7c18a3abce67bc3dd23"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/ResearchPlanner.kt",
+      "bytes": 2152,
+      "sha256": "8d2be51643ecc578740839adef01f8430861d18e95ee7e0993149460602edb36"
+    },
+    {
+      "path": "app/src/main/java/com/rohan/offlineresearch/MainActivity.kt",
+      "bytes": 6016,
+      "sha256": "0dbed19a309f2af3aec085f2956d7a21a7aefa7a5f73966f864902e63535cb93"
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "bytes": 123,
+      "sha256": "28adbc7f320aaa7d23a138595d4b27c6da54f7a519d40b2c9423e26587e96081"
+    },
+    {
+      "path": "app/src/test/java/com/rohan/offlineresearch/CitationValidatorTest.kt",
+      "bytes": 605,
+      "sha256": "80d693eb13bce15e08488d63d8610d1bc5a1bb4c0c8f1e8f1ba605bbaaa1fa75"
+    },
+    {
+      "path": "app/src/test/java/com/rohan/offlineresearch/ResearchPlannerTest.kt",
+      "bytes": 524,
+      "sha256": "f550ca523dd6ef3d3392a168bdadb3f04fe4da50d3908e9fe9055c8c1ea9d2d1"
+    },
+    {
+      "path": "bench/results/benchmark_manifest.json",
+      "bytes": 279,
+      "sha256": "64b1a15c7cbd89a2a014ed6401023f207c00c39e77601fdc6cd5f373eff178d7"
+    }
+  ]
+}

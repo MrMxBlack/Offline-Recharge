@@ -1,0 +1,57 @@
+[
+  {
+    "id": "research-method#0",
+    "doc_id": "research-method",
+    "chunk_index": 0,
+    "title": "Research Method",
+    "kind": "method",
+    "text": "A good research answer separates evidence, inference, and uncertainty. Claims should be traceable to local evidence.",
+    "source": "local corpus",
+    "license": "SEE DATASET MANIFEST",
+    "version": "1"
+  },
+  {
+    "id": "comparison-method#0",
+    "doc_id": "comparison-method",
+    "chunk_index": 0,
+    "title": "Comparison Method",
+    "kind": "comparison",
+    "text": "A comparison should evaluate the same dimensions for each subject and identify where evidence is missing or inconsistent.",
+    "source": "local corpus",
+    "license": "SEE DATASET MANIFEST",
+    "version": "1"
+  },
+  {
+    "id": "multihop-method#0",
+    "doc_id": "multihop-method",
+    "chunk_index": 0,
+    "title": "Multi-hop Method",
+    "kind": "relationship",
+    "text": "A multi-hop answer should expose intermediate relationships rather than jumping directly from the first entity to the final conclusion.",
+    "source": "local corpus",
+    "license": "SEE DATASET MANIFEST",
+    "version": "1"
+  },
+  {
+    "id": "timeline-method#0",
+    "doc_id": "timeline-method",
+    "chunk_index": 0,
+    "title": "Timeline Method",
+    "kind": "timeline",
+    "text": "A timeline should order dated evidence, distinguish established dates from estimates, and flag gaps or contradictions.",
+    "source": "local corpus",
+    "license": "SEE DATASET MANIFEST",
+    "version": "1"
+  },
+  {
+    "id": "offline-method#0",
+    "doc_id": "offline-method",
+    "chunk_index": 0,
+    "title": "Offline Constraint",
+    "kind": "reference",
+    "text": "Offline research must use locally stored models and datasets and must not depend on network requests during use.",
+    "source": "local corpus",
+    "license": "SEE DATASET MANIFEST",
+    "version": "1"
+  }
+]

@@ -1,0 +1,10 @@
+OFFLINE REPOSITORY AUDIT
+errors: 0 warnings: 7
+WARN : network-looking URL in docs/MODEL.md (review; build-time docs are allowed)
+WARN : network-looking URL in docs/LLAMA_CPP.md (review; build-time docs are allowed)
+WARN : network-looking URL in docs/API_WIRING.md (review; build-time docs are allowed)
+WARN : network-looking URL in third_party/README.md (review; build-time docs are allowed)
+WARN : network-looking URL in tools/integrate_llama_android.sh (review; build-time docs are allowed)
+WARN : network-looking URL in tools/native_preflight.sh (review; build-time docs are allowed)
+WARN : network-looking URL in tools/pin_llama_cpp.sh (review; build-time docs are allowed)
+PASS: static repository checks

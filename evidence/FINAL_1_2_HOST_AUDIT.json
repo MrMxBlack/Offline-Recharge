@@ -1,0 +1,11 @@
+{
+  "environment_checks": {
+    "gradle": false,
+    "java": true,
+    "adb": false,
+    "android_sdk_env": false
+  },
+  "gradle_wrapper_present": false,
+  "wrapper_jar_present": false,
+  "wrapper_properties_present": false
+}

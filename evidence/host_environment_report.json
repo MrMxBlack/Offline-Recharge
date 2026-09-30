@@ -1,0 +1,27 @@
+{
+  "project": "OfflineResearch",
+  "version": "V5.11",
+  "host": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "machine": "x86_64",
+    "java": "openjdk 21.0.11 2026-04-21",
+    "gradle": null,
+    "cmake": "cmake version 3.31.6",
+    "ninja": "1.12.1",
+    "adb": null,
+    "git": "git version 2.47.3",
+    "python": "Python 3.13.5"
+  },
+  "android": {
+    "sdk_root": null,
+    "ndk_versions": [],
+    "required_ndk": "29.0.13113456",
+    "required_ndk_present": false,
+    "gradle_wrapper_present": false
+  },
+  "native_source": {
+    "vendored": false,
+    "pin_file": true
+  },
+  "status": "BLOCKED_HOST_ENVIRONMENT"
+}

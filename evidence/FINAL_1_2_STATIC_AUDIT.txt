@@ -1,0 +1,25 @@
+ARCHIVE LAYOUT AUDIT
+errors: 0
+PASS: repository root is self-contained
+OFFLINE POLICY AUDIT v5
+errors: 0
+warnings: 0
+PASS: no forbidden runtime capability detected statically
+NOTE: static policy is not proof of zero packets; perform device network verification.
+OFFLINE REPOSITORY AUDIT
+errors: 0 warnings: 7
+WARN : network-looking URL in tools/pin_llama_cpp.sh (review; build-time docs are allowed)
+WARN : network-looking URL in tools/integrate_llama_android.sh (review; build-time docs are allowed)
+WARN : network-looking URL in tools/native_preflight.sh (review; build-time docs are allowed)
+WARN : network-looking URL in docs/LLAMA_CPP.md (review; build-time docs are allowed)
+WARN : network-looking URL in docs/API_WIRING.md (review; build-time docs are allowed)
+WARN : network-looking URL in docs/MODEL.md (review; build-time docs are allowed)
+WARN : network-looking URL in third_party/README.md (review; build-time docs are allowed)
+PASS: static repository checks
+PASS: Android build contract
+RELEASE TRUTH AUDIT
+version: FINAL-1.2
+llama.cpp vendored: False
+bounty_ready: False
+errors: 1
+ERROR: RELEASE_STATUS version is 'FINAL-1.2', expected a V5.x release version

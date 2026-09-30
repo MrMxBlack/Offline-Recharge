@@ -1,0 +1,6 @@
+RELEASE TRUTH AUDIT
+version: FINAL-1.3
+llama.cpp vendored: False
+bounty_ready: False
+errors: 0
+PASS: release claims are consistent with repository evidence

@@ -1,0 +1,5 @@
+BUILD REPRODUCIBILITY + AGP COMPATIBILITY AUDIT
+ERROR: gradlew missing
+ERROR: gradle-wrapper.jar missing or implausibly small
+ERROR: gradle-wrapper.properties missing
+errors: 3

@@ -1,0 +1,32 @@
+package com.rohan.offlineresearch
+
+import android.content.Context
+import com.arm.aichat.AiChat
+import com.arm.aichat.InferenceEngine
+import kotlinx.coroutines.flow.Flow
+import java.io.File
+
+/** Generated/installed only after tools/integrate_llama_android.sh succeeds. */
+class LlamaAndroidNativeProvider(context: Context) : NativeInferenceProvider {
+    private val engine: InferenceEngine = AiChat.getInferenceEngine(context.applicationContext)
+
+    override suspend fun load(model: File) {
+        require(model.isFile) { "GGUF model not found: ${model.absolutePath}" }
+        engine.loadModel(model.absolutePath)
+    }
+
+    override suspend fun setSystemPrompt(prompt: String) = engine.setSystemPrompt(prompt)
+
+    override fun generate(prompt: String, predictLength: Int): Flow<String> =
+        engine.sendUserPrompt(prompt, predictLength)
+
+    override suspend fun benchmark(promptTokens: Int, generationTokens: Int): String =
+        engine.bench(promptTokens, generationTokens, promptTokens, 1)
+
+    override fun release() = engine.cleanUp()
+    override fun destroy() = engine.destroy()
+
+    override fun isReady(): Boolean =
+        engine.state.value is InferenceEngine.State.ModelReady ||
+        engine.state.value is InferenceEngine.State.Generating
+}

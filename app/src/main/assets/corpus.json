@@ -1,0 +1,32 @@
+[
+  {
+    "id": "research-method",
+    "title": "Research Method",
+    "kind": "method",
+    "text": "A good research answer separates evidence, inference, and uncertainty. Claims should be traceable to local evidence."
+  },
+  {
+    "id": "comparison-method",
+    "title": "Comparison Method",
+    "kind": "comparison",
+    "text": "A comparison should evaluate the same dimensions for each subject and identify where evidence is missing or inconsistent."
+  },
+  {
+    "id": "multihop-method",
+    "title": "Multi-hop Method",
+    "kind": "relationship",
+    "text": "A multi-hop answer should expose intermediate relationships rather than jumping directly from the first entity to the final conclusion."
+  },
+  {
+    "id": "timeline-method",
+    "title": "Timeline Method",
+    "kind": "timeline",
+    "text": "A timeline should order dated evidence, distinguish established dates from estimates, and flag gaps or contradictions."
+  },
+  {
+    "id": "offline-method",
+    "title": "Offline Constraint",
+    "kind": "reference",
+    "text": "Offline research must use locally stored models and datasets and must not depend on network requests during use."
+  }
+]

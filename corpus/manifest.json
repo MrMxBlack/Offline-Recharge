@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "status": "development-seed",
+  "offline_only": true,
+  "total_budget_gb": 50,
+  "datasets": [],
+  "required_fields": ["id", "title", "kind", "text", "source", "license", "version", "sha256"],
+  "chunk_id_format": "doc_id#chunk_index",
+  "production_sources": "must be open-license/redistributable and reproducibly processed before submission"
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/ggml-org/llama.cpp",
+  "commit": "d230ddd763ffe27781c7ffd237ea78b639b36b6d",
+  "commit_verification": "declared pin; local source checkout not available in this environment",
+  "integration": "examples/llama.android/lib",
+  "normal_runtime_network": false,
+  "source_is_downloaded_during_build_setup": true,
+  "air_gapped_reproducibility": "requires vendoring third_party/llama.cpp at this exact commit"
+}

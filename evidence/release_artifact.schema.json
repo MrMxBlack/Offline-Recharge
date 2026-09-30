@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "required":["apk","bytes","sha256"],
+  "properties":{
+    "apk":{"type":"string"},
+    "bytes":{"type":"integer","minimum":1},
+    "sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"}
+  }
+}

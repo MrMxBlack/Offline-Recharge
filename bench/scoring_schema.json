@@ -1,0 +1,5 @@
+{
+  "dimensions": ["grounding", "citation_accuracy", "coverage", "reasoning", "uncertainty", "latency", "memory"],
+  "human_scale": "0-4 per dimension",
+  "rule": "Never score an answer as grounded if its citations are absent or refer to nonexistent local source IDs."
+}

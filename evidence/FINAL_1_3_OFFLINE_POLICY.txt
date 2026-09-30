@@ -1,0 +1,5 @@
+OFFLINE POLICY AUDIT v5
+errors: 0
+warnings: 0
+PASS: no forbidden runtime capability detected statically
+NOTE: static policy is not proof of zero packets; perform device network verification.
